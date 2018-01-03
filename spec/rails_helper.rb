@@ -61,3 +61,4 @@ RSpec.configure do |config|
 end
 
 Capybara.javascript_driver = :webkit
+FactoryGirl.create(:user)
